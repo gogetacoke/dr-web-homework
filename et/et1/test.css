@@ -1,0 +1,24 @@
+.hobby{
+    list-style: none;
+}
+.tables{
+    width: 500px;
+    height: 200px;
+    background-image: url("img/bj.jpg");
+
+}
+.hobby li{
+    width: 55px;
+    display: inline-block;
+}
+.info{
+    text-align: center;
+}
+.bottom{
+    text-align: center;
+    height: 50px;
+}
+.top{
+    color: white;
+    text-align: center;
+}

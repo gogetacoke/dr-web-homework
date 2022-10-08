@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+<form action="#" method="get" >
+    <table class="tables">
+        <tbody>
+        <tr>
+            <th class="top" colspan="2">
+                用户注册界面
+            </th>
+        </tr>
+        <tr>
+            <td>
+                姓名：
+            </td>
+            <td>
+                <input type="text" placeholder="请输入你的姓名">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                年龄：
+            </td>
+            <td>
+                <input type="number" placeholder="请输入你的年龄">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                性别：
+            </td>
+            <td>
+                <input type="radio" value="0"><img src="img/man.png" width="15" height="20">男士
+                <input type="radio" value="0"><img src="img/woman.png" idth="15" height="20">女士
+            </td>
+        </tr>
+        <tr>
+            <td>
+                生日：
+            </td>
+            <td>
+                <select name="year">
+                    <option>-请选择年份-</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                </select>
+                <select name="mouth">
+                    <option>-请选择月份-</option>
+                    <option>12</option>
+                    <option>11</option>
+                    <option>10</option>
+                    <option>9</option>
+                    <option>8</option>
+                    <option>7</option>
+                    <option>6</option>
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+                <select name="day">
+                    <option>-请选择日-</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                爱好：
+            </td>
+            <td>
+                <ul class="hobby">
+                    <li>
+                        <input type="checkbox" value="0">阅读
+                    </li>
+                    <li>
+                        <input type="checkbox" value="1">跑步
+                    </li>
+                    <li>
+                        <input type="checkbox" value="2">游泳
+                    </li>
+                    <li>
+                        <input type="checkbox" value="3">阅读
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="lf">个人介绍：</td>
+            <td>
+                <textarea placeholder="简单介绍一下自己吧~"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="info">
+                <input type="checkbox">我同意信息录入
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="bottom">
+                <input type="submit" class="zuo" value="立即录入">
+                <input type="reset" class="you" value="重新输入">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
