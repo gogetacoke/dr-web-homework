@@ -1,0 +1,13 @@
+body{
+    background-image: url("img/bj.png");
+}
+.center{
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-top: 200px;
+}
+input{
+    margin: 40px;
+}

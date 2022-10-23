@@ -1,0 +1,36 @@
+*{
+    font-size: 45px;
+}
+.tab{
+    border-style: solid;
+    margin: auto;
+    text-align: right;
+}
+#s{
+    background-color: #e6e6e6;
+    width: 480px;
+    text-align: right;
+    height: 70px;
+    font-size: 45px;
+}
+.symbol{
+    background-color: #f58f98;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.number{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: #feeeed;
+    margin: auto;
+    display: block;
+}
+.symbol-{
+    background-color: #8abae0;
+    width: 100px;
+    height: 50px;
+}

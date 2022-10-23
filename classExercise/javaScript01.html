@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--覆盖原先显示内容-->
+<!--
+<div id="demo">您好!</div>
+<button onclick="getElementById('demo').innerHTML='hhh'">按钮！</button>
+-->
+
+<!--return 返回-->
+<!--<span id="demos">这里显示的是span内容</span>-->
+
+<!--弹窗确认-->
+<button onclick="func2()">显示警告信息</button>
+
+
+<SCRIPT>
+    // function func1(a, b){
+    //     return a * b;
+    // }
+    // document.getElementById("demos").innerHTML=func(5, 40)
+
+    function func2(){
+        alert("你好，我是一个警告信息")
+    }
+    var c=confirm("您真的不喜欢吗")
+    alert(c)
+</SCRIPT>
+</body>
+</html>
