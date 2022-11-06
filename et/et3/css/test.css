@@ -1,0 +1,44 @@
+.margin {
+    border: black solid 4px;
+    border-radius: 10px;
+    height: 300px;
+    width: 700px;
+    margin: 100px auto auto;
+
+}
+.track{
+    border: black dotted 4px;
+    border-radius: 10px;
+    height: 250px;
+    width: 650px;
+    margin: 25px auto auto;
+    position: relative;
+}
+.padding{
+    border: black solid 4px;
+    border-radius: 10px;
+    height: 200px;
+    width: 600px;
+    margin: 25px auto auto;
+}
+p{
+    text-align: center;
+    margin-top: 15%;
+}
+
+#car{
+    width: 53px;
+    height: 53px;
+    position: absolute;
+    right: 1063px;
+    top: 90px;
+    animation:mymove 6s infinite;
+}
+@keyframes mymove{
+    0%   {top:-40px; left:0;}
+    25%  {top:0; left:600px;}
+    50%  {top:200px; left:600px;}
+    95%  {top:200px; right:0px;}
+    100% {top:-40px; left:0;}
+
+}

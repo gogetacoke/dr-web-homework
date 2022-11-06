@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/demo1.css">
-    <script src="js/demo1.js"></script>
+    <script src="js/demo1.js" rel="script"></script>
 </head>
 <body>
-    <table class="tab" >
+    <div class="ke">
+        <div class="ke2">
+            <input type="text" id="input"><!--显示屏-->
+            <div class="kuangqilai"><!--按键区-->
+                <div class="shang"><!--第一部分按键 / * - -->
+                    <button class="button" onclick="qing()">清除</button>
+                    <button class="button" onclick="shu('/')">/</button>
+                    <button class="button" onclick="shu('*')">*</button>
+                    <button class="button" onclick="shu('-')">-</button>
+                </div>
+                <div class="zhong"><!--第二部分按键 7 8 9 4 5 6 + -->
+                    <div class="bao">
+                        <button class="button shu" onclick="shu(7)">7</button>
+                        <button class="button shu" onclick="shu(8)">8</button>
+                        <button class="button shu" onclick="shu(9)">9</button>
+                        <button class="button shu" onclick="shu(4)">4</button>
+                        <button class="button shu" onclick="shu(5)">5</button>
+                        <button class="button shu" onclick="shu(6)">6</button>
+                    </div>
+                    <button id="jia" onclick="shu('+')">+</button>
+                </div>
+                <div class="xia"><!--第三部分按键 1 2 3 0 .  确定-->
+                    <div class="bao2">
+                        <button class="button shu" onclick="shu(1)">1</button>
+                        <button class="button shu" onclick="shu(2)">2</button>
+                        <button class="button shu" onclick="shu(3)">3</button>
+                        <button id="ling" class="shu" onclick="shu(0)">0</button>
+                        <button id="dian" class="shu" onclick="shu('.')">.</button>
+                    </div>
+                    <!-- 给一个点击事件，当点击后就会计算结果 -->
+                    <button id="end" onclick="suan()">enter</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!--
+
+    <!--<table class="tab" >
         <tr>
         <td colspan="4">
             <input type="text" value="0" id="s"/>
@@ -97,7 +139,5 @@
                 <input type="button" class="symbol-" value="=" onclick="">
             </td>
         </tr>
-    </table>
-</body>
-</html>
-
+    </table>-->
+-->
